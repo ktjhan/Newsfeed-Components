@@ -47,9 +47,10 @@ function makeMenu(arr) {
   });
 
   menu.classList.add('menu');
+
   const buttonMenu = document.querySelector('.menu-button');
   buttonMenu.addEventListener('click', () => {
-    menu.classList.toggle('menu-open');
+    menu.classList.toggle('menu--open');
   })
 
   return menu;
